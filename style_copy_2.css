@@ -19,7 +19,7 @@
 /* add your css here, feel free to use comments and order them logically for better readability */
 body {
    background-color: #ffffff;
-   p2{color: #1c4587ff;
+   u{color: #1c4587ff;
   text-decoration: underline;}
    font-family: Georgia, 'Times New Roman', Times, serif;
  }
@@ -30,11 +30,11 @@ body {
    height: 125px;
    color: #ffffff;
    padding: 10px;
+   img{float: left;}   
    a {
     color: white;
     text-decoration: none;
-    text-align: center;
-   }
+    text-align: center;}
  }
 
  #nav-bar {
@@ -75,6 +75,7 @@ body {
   padding: 10px;
   float: right;
  }
+  
 
  #article4 {
   background-color: #ffffff;
