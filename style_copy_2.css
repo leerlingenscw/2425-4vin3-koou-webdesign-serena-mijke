@@ -18,8 +18,11 @@
 
 /* add your css here, feel free to use comments and order them logically for better readability */
 body {
-   background-color:#ffffff;
-font-family:Georgia, 'Times New Roman', Times, serif}
+   background-color: #ffffff;
+   p2{color: #1c4587ff;
+  text-decoration: underline;}
+   font-family: Georgia, 'Times New Roman', Times, serif;
+ }
 
  header {
    background-color: #1c4587ff;
@@ -30,67 +33,76 @@ font-family:Georgia, 'Times New Roman', Times, serif}
    a {
     color: white;
     text-decoration: none;
+    text-align: center;
    }
  }
 
  #nav-bar {
-  background-color: #9fc5e8ff;
-  width: auto;
-  height: 50px;
-  margin-top: 10px;
-  padding: 10px;
-  a {color: black}
-   font-size: xx-large;
-   text-align: center;
-}
-
-
- article {
-   background-color: #ffffff;
+   background-color: #9fc5e8ff;
    width: auto;
-   height: auto;
-   margin: 10px 0px 10px 0px;
+   height: 50px;
+   margin-top: 10px;
    padding: 10px;
-   u{ color: #1c4587ff;}
+   a {color: black}
+    font-size: xx-large;
+    text-align: center;
  }
 
  #article1 {
-  width: 22%;
-  height: 200px;
-  background-color: #ffffff;
-  padding: 10px;
-  float: left;
-  margin-bottom: 10px;
- }
+   background-color: #ffffff;
+   width: auto;
+   height: auto;
+   padding: 10px;
+   margin-top: 10px;
+ }  
 
  #article2 {
-  width: 22%;
-  height: 200px;
   background-color: #ffffff;
+  width: 47%;
+  height: 335px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   padding: 10px;
-  margin-left: 10px;
-  margin-bottom: 10px;
-  float: left
+  float: left;
  }
 
  #article3 {
-  width: 22%;
-  height: 200px;
   background-color: #ffffff;
+  width: 47%;
+  height: 335px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   padding: 10px;
-  margin-left: 10px;
-  margin-bottom: 10px;
-  float:left
+  float: right;
  }
+
  #article4 {
-  width: 22%;
-  height: 200px;
   background-color: #ffffff;
+  width: 47%;
+  height: auto;
+  margin-bottom: 20px;
   padding: 10px;
-  margin-left: 10px;
-  margin-bottom: 10px;
-  float:left
+  float: left;
  }
+
+ #article5 {
+  background-color: #ffffff;
+  width: 47%;
+  height: auto;
+  margin-bottom: 20px;
+  padding: 10px;
+  float: right;
+ }
+
+ table {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid black;
+}
+
  footer {
    clear: both;
    background-color: #1c4587ff;
@@ -99,7 +111,6 @@ font-family:Georgia, 'Times New Roman', Times, serif}
    padding: 10px;
    text-align: center;
    color: white;
-   margin-top: 10px;
  }
     
 * {
