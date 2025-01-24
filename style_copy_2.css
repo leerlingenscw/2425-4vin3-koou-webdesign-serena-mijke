@@ -21,9 +21,8 @@ body {
    background-color: #ffffff;
    u{color: #1c4587ff;
   text-decoration: underline;}
-   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
  }
-
  header {
    background-color: #1c4587ff;
    width: auto;
@@ -64,6 +63,7 @@ body {
   margin-bottom: 20px;
   padding: 10px;
   float: left;
+  img{float:right;}
  }
 
  #article3 {
@@ -93,6 +93,7 @@ body {
   margin-bottom: 20px;
   padding: 10px;
   float: right;
+  img{float: none;}
  }
 
  table {
